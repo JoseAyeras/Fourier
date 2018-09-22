@@ -13,24 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{1c20849c-c8c9-48ca-9bc7-cfda4398a5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{b3bfc55f-902e-4b9a-b7b2-be8c3556fedc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DFT.cpp">
+    <ClCompile Include="unittest1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Fourier\Source.cpp">
+      <Filter>Source Files\External</Filter>
     </ClCompile>
-    <ClCompile Include="ComplexNumber.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Fourier\DFT.cpp">
+      <Filter>Source Files\External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fourier\ComplexNumber.cpp">
+      <Filter>Source Files\External</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ComplexNumber.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Fourier\DFT.hpp">
+      <Filter>Header Files\External</Filter>
     </ClInclude>
-    <ClInclude Include="DFT.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Fourier\ComplexNumber.hpp">
+      <Filter>Header Files\External</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
